@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmlobject>
+   <simpletext text="Let's go!">
+      <entity centerrotation="0.0" height="26" name="myte" render="true" width="85">
+         <vector2d id="location" x="599.0" y="16.0"/>
+         <scripts/>
+      </entity>
+      <color blue="0" green="102" red="153"/>
+      <font name="Cooper Black" size="20" style="0"/>
+   </simpletext>
+</xmlobject>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<renderables>
+   <simpletexts>
+      <simpletext text="SCORE:">
+         <entity centerrotation="0.0" height="30" name="" render="true" width="84">
+            <vector2d id="location" x="31.0" y="31.0"/>
+            <scripts/>
+         </entity>
+         <color blue="255" green="255" red="102"/>
+         <font name="Comic Sans MS Bold" size="14" style="1"/>
+      </simpletext>
+      <simpletext text="0">
+         <entity centerrotation="0.0" height="30" name="scoretxt" render="true" width="29">
+            <vector2d id="location" x="117.0" y="35.0"/>
+            <scripts>
+               <script class="com.scripts.ScoreScript" name="ScoreScript"/>
+            </scripts>
+         </entity>
+         <color blue="0" green="255" red="255"/>
+         <font name="Old English Text MT" size="29" style="1"/>
+      </simpletext>
+      <simpletext text="Let's go!">
+         <entity centerrotation="0.0" height="30" name="" render="true" width="180">
+            <vector2d id="location" x="599.0" y="16.0"/>
+            <scripts/>
+         </entity>
+         <color blue="0" green="102" red="153"/>
+         <font name="Cooper Black" size="20" style="0"/>
+      </simpletext>
+      <simpletext text="I am Ghostball">
+         <entity centerrotation="0.0" height="30" name="" render="true" width="546">
+            <vector2d id="location" x="45.0" y="371.0"/>
+            <scripts/>
+         </entity>
+         <color blue="153" green="51" red="255"/>
+         <font name="Chiller" size="39" style="1"/>
+      </simpletext>
+      <simpletext text="Zzzz...">
+         <entity centerrotation="0.0" height="30" name="" render="true" width="266">
+            <vector2d id="location" x="189.0" y="77.0"/>
+            <scripts/>
+         </entity>
+         <color blue="153" green="102" red="0"/>
+         <font name="Consolas Bold Italic" size="38" style="3"/>
+      </simpletext>
+      <simpletext text="I am Girl!">
+         <entity centerrotation="0.0" height="30" name="" render="true" width="140">
+            <vector2d id="location" x="608.0" y="141.0"/>
+            <scripts/>
+         </entity>
+         <color blue="0" green="255" red="255"/>
+         <font name="Broadway" size="14" style="0"/>
+      </simpletext>
+   </simpletexts>
+   <animatedsprites>
+      <animatedsprite>
+         <entity centerrotation="0.0" height="100" name="girl" render="true" width="100">
+            <vector2d id="location" x="567.0" y="174.0"/>
+            <scripts/>
+         </entity>
+         <spritesheet col="7" path="index.png" resname="abc" row="3"/>
+         <animator idle="Animation1">
+            <animation col="7" framerate="5" loop="true" name="Animation2" row="1"/>
+            <animation col="7" framerate="5" loop="true" name="Animation3" row="2"/>
+            <animation col="7" framerate="5" loop="true" name="Animation1" row="0"/>
+         </animator>
+      </animatedsprite>
+      <animatedsprite>
+         <entity centerrotation="0.0" height="100" name="aaaa" render="true" width="100">
+            <vector2d id="location" x="81.0" y="214.0"/>
+            <scripts>
+               <script class="com.scripts.GhostScript" name="GhostScript"/>
+            </scripts>
+         </entity>
+         <spritesheet col="4" path="hantu.png" resname="aaaa" row="3"/>
+         <animator idle="Animation2">
+            <animation col="4" framerate="8" loop="true" name="Animation2" row="1"/>
+            <animation col="4" framerate="4" loop="true" name="Animation3" row="2"/>
+            <animation col="4" framerate="5" loop="true" name="Animation1" row="0"/>
+         </animator>
+      </animatedsprite>
+   </animatedsprites>
+</renderables>

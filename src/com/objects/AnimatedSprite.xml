@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmlobject>
+   <animatedsprite>
+      <entity centerrotation="0.0" height="100" name="girl" render="true" width="100">
+         <vector2d id="location" x="567.0" y="174.0"/>
+         <scripts/>
+      </entity>
+      <spritesheet col="7" path="index.png" resname="abc" row="3"/>
+      <animator idle="Animation1">
+         <animation col="7" framerate="5" loop="true" name="Animation2" row="1"/>
+         <animation col="7" framerate="5" loop="true" name="Animation3" row="2"/>
+         <animation col="7" framerate="5" loop="true" name="Animation1" row="0"/>
+      </animator>
+   </animatedsprite>
+</xmlobject>
